@@ -20,7 +20,7 @@ exports.register = function(commander) {
             return false
         }
         delData()
-        opn('xxx.html')
+        opn('http://feng.avosapps.com/html/'+ confHash.name +'.html')
 
         process.exit()
     })
